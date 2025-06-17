@@ -1,0 +1,46 @@
+QWidget {
+    font-family: Segoe UI;
+    font-size: 14px;
+    background-color:rgb(18, 18, 18);
+    color: white;
+}
+
+QPushButton {
+    background-color: #1e1c26;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 15px;
+}
+QPushButton:hover {
+    background-color:#1a1821;
+}
+QPushButton[clase="eliminar"] {
+    background-color:rgb(197, 11, 95);
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 15px;
+}
+QPushButton[clase="eliminar"]:hover {
+    background-color:rgb(155, 24, 83);
+}
+QPushButton[clase="guardar"] {
+    background-color:rgb(11, 197, 172);
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 15px;
+}
+QPushButton[clase="guardar"]:hover {
+    background-color:rgb(24, 155, 129);
+}
+
+
+QLineEdit, QTextEdit, QSpinBox, QDoubleSpinBox {
+    background-color:#101010;
+    border: 1px solid #1f1f1f;
+    border-radius: 3px;
+    padding: 4px;
+    color: white;
+}

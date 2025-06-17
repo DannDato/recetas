@@ -1,0 +1,20 @@
+1. Instala PyInstaller
+Abre una terminal o CMD y ejecuta:
+
+    pip install pyinstaller
+
+2. Ejecuta el comando para crear el ejecutable
+Dentro del directorio de tu proyecto (donde está main.py):
+
+    pyinstaller --noconsole --onefile --icon=img/icono.ico --add-data "style/style.qss;style" --add-data "img/icono.ico;img" main.py
+
+        * Asegúrate de que el ícono esté en formato .ico, y que la ruta sea correcta.
+
+3. Al terminar, PyInstaller creará estas carpetas:
+    /dist/
+        └── main.exe   ← este es tu ejecutable
+    /build/
+    main.spec
+
+Tu ejecutable estará en la carpeta dist/. Puedes moverlo a donde quieras.
+
