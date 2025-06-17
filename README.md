@@ -27,7 +27,7 @@ Aplicación sin fines de lucro, creada con fines educativos y personales.
 
 ### Opción 1: Ejecutable para Windows
 
-1. Descarga el instalador desde [🔗 enlace de instalación o repositorio].
+1. Descarga el instalador desde [ https://github.com/DannDato/recetas/tree/master/Output ].
 2. Ejecuta el instalador y elige la carpeta donde guardarás tus recetas.
 3. ¡Listo! La app quedará instalada y podrás acceder desde el menú inicio.
 
